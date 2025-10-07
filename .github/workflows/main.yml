@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     name: Build the app
     steps:
-      - uses: actions/checkout@554d9ecafc5e5586703a672afe791c5f213aa18d
+      - uses: actions/checkout@94e83f4248617942341829043b1810f3468fdfd2
