@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  build_app:
+    runs-on: ubuntu-latest
+    name: Build the app
+    steps:
+      - uses: actions/checkout@707e5a416b49cd885f94477548bc84bc341cfba5
+      
